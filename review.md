@@ -41,3 +41,17 @@ Async: You put the async keyword before a function to make it an asynchronous fu
 Await: You use the await keyword inside an async function to pause execution until a promise resolves (fulfills) or rejects.
 Fetch is a way to make HTTP requests (like getting data from a server). It returns a promise that resolves to the response from the server. You then usually need to parse the response.
 setTimeout is a function that executes a callback function after a specified delay.
+
+Constructor functions define the properties and behaviors that objects of a certain type will have. They are usually named with a capital letter.
+You create objects from constructor functions using the new keyword.
+New does several things:
+Creates a new empty object.
+Sets the 'this' context inside the function to the new object.
+Calls the constructor function.
+Returns the new object.
+
+Factory functions are used to create objects. They don't use the new keyword.
+They simply return a new object.
+
+Prototypes are the mechanism behind inheritance in JavaScript. They allow objects to inherit properties and methods from other objects.
+Inheritance lets you create new types of objects based on existing ones, promoting code reuse and making your code more organized.
